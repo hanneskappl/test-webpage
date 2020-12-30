@@ -1,0 +1,2536 @@
+<html>
+
+<head>
+    <title>DataTables example - Zero configuration</title>
+</head>
+
+<body>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
+    <style type="text/css" class="init">
+    </style>
+    <script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript" language="javascript"
+        src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" class="init">
+
+        $(document).ready(function () {
+            $('#example').DataTable({
+                "paging": true,
+                "ordering": true,
+                "info": true
+            });
+        });
+
+    </script>
+
+<table border="1" id="example" class="display" style="width:100%">
+    <thead>
+        <tr class="rowSolistsHeader">
+            <th>Name</th>
+            <th>Instrument</th>
+            <th>Konzert</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="rowSolists">
+            <td>&nbsp;</td>
+            <td style="width: 230px;">&nbsp;</td>
+            <td style="width: 320px;">&nbsp;</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/108">Aepli Mirjam</a></td>
+            <td>Violine</td>
+            <td>
+                <ul id="listNoDot">
+                    <li>Konzert ,19. M&auml;rz 2005</li>
+                    <li>Konzert ,19. M&auml;rz 2005</li>
+                    <li>Konzert ,19. M&auml;rz 2005</li>
+                    <li>Konzert ,19. M&auml;rz 2005</li>
+                </ul>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/128">Aizenberg Alexander</a></td>
+            <td>Violine</td>
+            <td>Konzert, 8. Dez. 1993</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/129">Alberdi Laida</a></td>
+            <td>Violine</td>
+            <td>Konzert, 8. Dez. 2019</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Alfar&eacute; Norbert</td>
+            <td>Musikalisches Lustspiel</td>
+            <td>Musikalisches Lustspiel, 11. Sept. 1949</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Allmayer Sandra&nbsp;</td>
+            <td>Klarinette</td>
+            <td>Konzert, 23. Nov. 1991</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/132">Allmayer Silke</a></td>
+            <td>Horn</td>
+            <td>Konzert 8. Dez. 2002</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/133">Amann Bernhard</a></td>
+            <td>Viola</td>
+            <td>
+                <ul id="listNoDot">
+                    <li>Konzert, 8. Dez. 1982</li>
+                    <li>Konzert, 2. Juni 1983</li>
+                    <li>Konzert, 8. Dez. 1984</li>
+                </ul>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Amann Egbert</td>
+            <td>Violine</td>
+            <td>Konzert, 25. J&auml;nner 1981</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Anzenbacher Eva</td>
+            <td>Viola</td>
+            <td>26. Aug. 1986</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Anzenbacher Maria</td>
+            <td>Violine</td>
+            <td>
+                <ul id="listNoDot">
+                    <li>26. August 1986</li>
+                    <li>7. Dezember 1986</li>
+                    <li>4. April 1998</li>
+                </ul>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td style="width:206px;"><a href="/seiten/134">Baldauf Anja</a></td>
+            <td>Querfl&ouml;te&nbsp;&nbsp;</td>
+            <td>4. April 2009</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Balk&aacute;nyi J&aacute;nos&nbsp;</td>
+            <td>Violine</td>
+            <td>19. M&auml;rz 1972</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/136">Bechter Judith</a></td>
+            <td>Sopran&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>23. M&auml;rz 2002</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Bell Armin</td>
+            <td>&nbsp;Rolle des 1. Gemeinderats</td>
+            <td>Operette, 16./18./ 21. April. 1979</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Bell Hermann</td>
+            <td>
+                <ul id="listNoDot">
+                    <li>Rolle des Dr. Karl Boss, Universit&auml;tsprofessor</li>
+                    <li>Rolle des Kaisers und Hochzeitspaar</li>
+                </ul>
+            </td>
+            <td>
+                <ul id="listNoDot">
+                    <li>Musikalisches Lustspiel, 11. Sept. 1949</li>
+                    <li>Operette, 14. , 18. , 21. und 22. Sept. 1952</li>
+                </ul>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/138">Benz Valerio</a></td>
+            <td>Pianoforte</td>
+            <td>12. April 2003</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/132">Bilgeri&nbsp; Wolfgang</a></td>
+            <td>Posaune</td>
+            <td>&nbsp;8. Dez. 2002</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/115">Bogn&aacute;r Ferenc</a></td>
+            <td>Klavier</td>
+            <td>7. Juni 1986</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>B&ouml;hm Ernst</td>
+            <td>
+                <ul id="listNoDot">
+                    <li>Rolle des Dr. Karl Boss</li>
+                    <li>Rolle des Universit&auml;tsprofessors</li>
+                </ul>
+            </td>
+            <td>
+                <ul id="listNoDot">
+                    <li>Musikalisches Lustspiel, 16./18. J&auml;n. 1962</li>
+                    <li>4. Febr. 1962</li>
+                </ul>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>B&ouml;sch-Fu&szlig;enegger Maria</td>
+            <td>Alt</td>
+            <td>31. M&auml;rz 1968</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>B&ouml;sch-Fu&szlig;enegger Maria</td>
+            <td>Alt</td>
+            <td>5. Nov. 1972</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/141">B&ouml;sch Simone Melanie</a></td>
+            <td>Fl&ouml;te</td>
+            <td>8. Dez. 2018</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Brandl Erika</td>
+            <td>Rolle der Elly, die Tochter</td>
+            <td>
+                <ul id="listNoDot">
+                    <li>Musikalisches Lustspiel, 16./18. J&auml;n. 1962</li>
+                    <li>4. Febr. 1962</li>
+                </ul>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/143">Brandt Veronika</a></td>
+            <td>&nbsp;Sopran</td>
+            <td>
+                <ul id="listNoDot">
+                    <li>7. Juni 2002</li>
+                    <li>8. Juni 2002</li>
+                </ul>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Br&auml;ndle Johann&nbsp;&nbsp;</td>
+            <td>Fl&ouml;te</td>
+            <td>
+                <ul id="listNoDot">
+                    <li>28. Juni 1981</li>
+                    <li>12. April 1982</li>
+                    <li>8. Dez. 1982</li>
+                    <li>2. Juni 1983</li>
+                    <li>26. August 1986</li>
+                    <li>11. April 1992</li>
+                    <li>26. M&auml;rz 1994</li>
+                    <li>8. Dezember 1998</li>
+                    <li>15. April 2000</li>
+                </ul>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Brabec Libor</td>
+            <td>Violine</td>
+            <td>7. April 1990</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Breuss Christine</td>
+            <td>Sopran</td>
+            <td>11. April 1987</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/149">Brez&oacute;czki Gabriella</a></td>
+            <td>Klavier</td>
+            <td>16. Mai 2004</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Bucher Hugo</td>
+            <td>Rolle des Lehrers</td>
+            <td>&nbsp;Operette, 14. , 18. , 21. und 22. Sept. 1952</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/151">Burtscher Lothar</a></td>
+            <td>Bass&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>8. Dez. 2005</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/152">Cadruvi Rilana</a></td>
+            <td>Alt&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;7. April 2001</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Canaval Veronika</td>
+            <td>Arsena, Tochter</td>
+            <td>Operette 28./29. Nov. 1981 und 5./12. Dez. 1981</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Car&eacute;n Alf</td>
+            <td>&nbsp;</td>
+            <td>10. Okt. 1954</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Car&eacute;n Elly</td>
+            <td>&nbsp;Klavier</td>
+            <td>10. Okt. 1954</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Car&eacute;n Elly&nbsp;(fr&uuml;her Metropol Theater Berlin)</td>
+            <td>Rolle der Wirtin zum &bdquo;Wei&szlig;en R&ouml;ssel&quot;</td>
+            <td>Operette, 14. , 18. , 21. und 22. Sept. 1952</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Car&eacute;n Elly&nbsp;(fr&uuml;her Metropol-Theater Berlin)</td>
+            <td>Sylva Varescu, S&auml;ngerin&nbsp;</td>
+            <td>30. Aug.
+                <dl>
+                    <dt>1./6./8./13./14. Sept. 1953</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Car&eacute;n Elly</td>
+            <td>&nbsp;</td>
+            <td>11. Sept. 1955</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Cavall Peter</td>
+            <td>Tenor</td>
+            <td>8. Dez. 1998<br />
+                8. Dez. 2000</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Chmel C&auml;cilia</td>
+            <td>Violoncello</td>
+            <td>19. Juni 1977<br />
+                17. Sept. 1978</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>de Ciglia&nbsp;Olga</td>
+            <td>Rolle der Ottilie, die Tochter</td>
+            <td>Operette, 14. , 18. , 21. und 22. Sept. 1952</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Chmel Julia</td>
+            <td>Blockfl&ouml;te</td>
+            <td>&nbsp;8. Dez. 1983</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Comperini Anni</td>
+            <td>&nbsp;Elly, die Tochter</td>
+            <td>Operette, 11. Sept. 1949</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Datzmann Curt</td>
+            <td>Rolle des Professor Hinzelmann
+                <dl>
+                    <dt>Rolle des Oberf&ouml;rsters</dt>
+                </dl>
+            </td>
+            <td>Operette, 14. , 18. , 21. und 22. Sept. 1952</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Datzmann Curt</td>
+            <td>Eugen v. Rohnsdorf, Oberleutnant</td>
+            <td>Operette &ldquo; 30. Aug. und 1./6./8./13./14. Sept. 1953</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Dawn Reinhart Carole</td>
+            <td>Trompete</td>
+            <td>3. April 1977</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/154">Dorner Peter</a></td>
+            <td>Klarinette&nbsp;&nbsp;&nbsp;</td>
+            <td>8. April&nbsp; 2006</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Dramberger Alexandra</td>
+            <td>Sopran</td>
+            <td>8. Dez. 1997</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Dramberger Alexandra</td>
+            <td>Sopran</td>
+            <td>20. Dez. 1998</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/145">Drexel Edwin</a></td>
+            <td>&nbsp;</td>
+            <td>7. Juni 2002
+                <dl>
+                    <dt>8. Juni 2002</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/132">D&uuml;nser Stefan</a></td>
+            <td>Trompete</td>
+            <td>17. Okt.1992<br />
+                8. Dez. 1995<br />
+                8. Dez. 1997<br />
+                20. Dez. 1998<br />
+                8. Dez. 2000<br />
+                &nbsp;8. Dez. 2002</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/156">D&uuml;nser Thomas</a></td>
+            <td>Cello</td>
+            <td>4. Dez. 1994<br />
+                8. Dez. 1994<br />
+                16. Juli 1999<br />
+                15. April 2000<br />
+                8. Dez. 2001<br />
+                8. Juni 2002<br />
+                18. April 2003<br />
+                8. Dez. 2003<br />
+                8. April 2006<br />
+                15. M&auml;rz 2008</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/151">D&uuml;nser Veronika</a></td>
+            <td>Sopran&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>8. Dez. 2005</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Dybal-Malin Margarethe</td>
+            <td>Zigeunerin</td>
+            <td>Operette 28./29. Nov. 1981 und 5./12. Dez. 1981</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/162">Eberle Linda</a></td>
+            <td>&nbsp;Violine</td>
+            <td>19. M&auml;rz 2005</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Eberle Josef</td>
+            <td>Trompete</td>
+            <td>23. April 1984</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Edlinger Renate</td>
+            <td>Oboe</td>
+            <td>19. Juni 1977</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Eggarter Bernhard</td>
+            <td>Trompete</td>
+            <td>8. Dez. 1990</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/168">Ellensohn Gy&ouml;ngyi</a></td>
+            <td>Viola&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>31. M&auml;rz 2007<br />
+                29. April 2012</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Ellensohn Hannes</td>
+            <td>&nbsp;</td>
+            <td>11. Sept. 1955</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Ellensohn Hannes</td>
+            <td>Ritter Fridolin von Gumpendorf</td>
+            <td>1957</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Ellensohn Hannes</td>
+            <td>Benno Bokorny</td>
+            <td>16./18. J&auml;n. 1962
+                <dl>
+                    <dt>4. Febr. 1962</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Ellensohn Helmut</td>
+            <td>Rolle des Dr. Erich Siedler, Rechtsanwalt</td>
+            <td>Operette, 14. , 18. , 21. und 22. Sept. 1952</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Ellensohn Helmut</td>
+            <td>&nbsp;</td>
+            <td>10. Okt. 1954</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Ellensohn Helmut</td>
+            <td>&nbsp;</td>
+            <td>11. Sept. 1955</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Ellensohn Helmut</td>
+            <td>Gesamtleitung</td>
+            <td>16./18. J&auml;n. 1962
+                <dl>
+                    <dt>4. Febr. 1962</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Ellensohn Ingrid</td>
+            <td>Violoncello</td>
+            <td>&nbsp;8. Dez. 1989</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Ellensohn Kuno</td>
+            <td>&nbsp;</td>
+            <td>11. Sept. 1955</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Ellensohn Kurt</td>
+            <td>Rolle: der Piccolo</td>
+            <td>Operette, 14. , 18. , 21. und 22. Sept. 1952</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Ellensohn Kurt</td>
+            <td>Karl R&ouml;lling, Kunsth&auml;ndler</td>
+            <td>13. Sept. 1956</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Ellensohn Kurt</td>
+            <td>Bass, Jesus</td>
+            <td>11. M&auml;rz 1967</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Ellensohn Kurt</td>
+            <td>Bass, Jesus</td>
+            <td>31. M&auml;rz 1968</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Ellensohn Kurt</td>
+            <td>Tenor</td>
+            <td>4. Nov. 1978</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Ellensohn Kurt</td>
+            <td>Tenor</td>
+            <td>15. und 16. 4. 1989</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/142">Ellensohn Kurt</a></td>
+            <td>&nbsp;Tenor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>8. Juni 2002</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Ellensohn Markus</td>
+            <td>Violine</td>
+            <td>18. April 2003</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Ellensohn Markus</td>
+            <td>Violine</td>
+            <td>8. Dez. 2003</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Ellensohn Otto</td>
+            <td>&nbsp;</td>
+            <td>11. Sept. 1955</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Ellensohn Roland</td>
+            <td>&nbsp;4. Gemeinderat</td>
+            <td>16./18./ 21. April. 1979</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Ellensohn Werner</td>
+            <td>Tech. Leitung</td>
+            <td>16./18. J&auml;n. 1962
+                <dl>
+                    <dt>4. Febr. 1962</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Els&auml;sser Maria</td>
+            <td>&nbsp;</td>
+            <td>11. Sept. 1955</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Els&auml;sser&nbsp; Eugen</td>
+            <td>&nbsp;</td>
+            <td>11. Sept. 1955</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Elsensohn Cilli</td>
+            <td>Alt</td>
+            <td>11. M&auml;rz 1967</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Elsensohn Gabi</td>
+            <td>Violine</td>
+            <td>&nbsp;8. Dez. 1989</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Elsensohn Gabi</td>
+            <td>Violine</td>
+            <td>11. April 1992</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Elsensohn Gabi</td>
+            <td>Violine</td>
+            <td>10. Juni. 1995</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Elsensohn Gabi</td>
+            <td>Violine</td>
+            <td>6. Juni 1998</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Ender Norbert</td>
+            <td>Universit&auml;tsdiener</td>
+            <td>16./18. J&auml;n. 1962
+                <dl>
+                    <dt>4. Febr. 1962</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Ender-Svoboda Margareth</td>
+            <td>Sopran</td>
+            <td>7. April 1990</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Ender Wofgang &nbsp;</td>
+            <td>Cello</td>
+            <td>24. Juni 1984</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Ender Wolfgang</td>
+            <td>Cello</td>
+            <td>8. Dez. 1992</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Ess Walter&nbsp;</td>
+            <td>Tenor</td>
+            <td>10.&nbsp; Dez. 1988</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/171">Faderny Maria</a></td>
+            <td>Fl&ouml;te&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>25. April 2010</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Fehle Armin</td>
+            <td>Dr. Hans Hessing
+                <dl>
+                    <dt>Inszenierung</dt>
+                </dl>
+            </td>
+            <td>Musikalisches Lustspiel, 11. Sept. 1949</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>&nbsp;</td>
+            <td>Rolle des Wilhelm Giesecke,
+                <dl>
+                    <dt>Rolle des Fabrikanten</dt>
+                </dl>
+            </td>
+            <td>Operette, 14. , 18. , 21. und 22. Sept. 1952</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>&nbsp;</td>
+            <td>Graf Boni Kancsianu</td>
+            <td>30. Aug.
+                <dl>
+                    <dt>1./6./8./13./14. Sept. 1953</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Fehle Walter</td>
+            <td>Miksa, Oberkellner
+                <dl>
+                    <dt>Lakai</dt>
+                </dl>
+            </td>
+            <td>30. Aug.
+                <dl>
+                    <dt>1./6./8./13./14. Sept. 1953</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>&nbsp;</td>
+            <td>Bertl, Viehh&uuml;ter</td>
+            <td>13. Sept. 1956</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Fend Barbara</td>
+            <td>Fagott</td>
+            <td>8. Dez. 1992</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Fend Hubert</td>
+            <td>Lenz, Holzknecht</td>
+            <td>13. Sept. 1956</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>&nbsp;</td>
+            <td>Tenor</td>
+            <td>11. M&auml;rz 1967</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>&nbsp;</td>
+            <td>Tenor</td>
+            <td>31. M&auml;rz 1968</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>&nbsp;</td>
+            <td>Tenor</td>
+            <td>14. M&auml;rz 1976</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Fend Hugo</td>
+            <td>Steidl, F&ouml;rster</td>
+            <td>13. Sept. 1956</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Fend Josef</td>
+            <td>Arthaber, cand. med.</td>
+            <td>16./18. J&auml;n. 1962
+                <dl>
+                    <dt>4. Febr. 1962</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Fend Klaus</td>
+            <td>Horn</td>
+            <td>6. Juni 1987</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Fe&szlig;ler Franz-Karl</td>
+            <td>Fl&ouml;te</td>
+            <td>12. April 1982</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>&nbsp;</td>
+            <td>Fl&ouml;te</td>
+            <td>19. Sept. 1976</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>&nbsp;</td>
+            <td>Fl&ouml;te</td>
+            <td>23. April 1984</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Fetka Gerhard</td>
+            <td>Regie</td>
+            <td>28./29. Nov. 1981
+                <dl>
+                    <dt>5./12. Dez. 1981</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Fetter Harald</td>
+            <td>Violine</td>
+            <td>12. April 1982</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>&nbsp;</td>
+            <td>Violine</td>
+            <td>4. April 1983</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>&nbsp;</td>
+            <td>Violine</td>
+            <td>4. Juni 1988</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Fickel Paul</td>
+            <td>Rolle des Hoteliers zum wilden Mann</td>
+            <td>Operette, 14. , 18. , 21. und 22. Sept. 1952</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Fink Isabella</td>
+            <td>Cello</td>
+            <td>11. April 1992</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Fischer Andrea</td>
+            <td>Violine</td>
+            <td>22. M&auml;rz 1986</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>&nbsp;</td>
+            <td>Violine</td>
+            <td>30. M&auml;rz 1986</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>&nbsp;</td>
+            <td>Violine</td>
+            <td>26. Aug. 1986</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>&nbsp;</td>
+            <td>Violine</td>
+            <td>7. Dez. 1986</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>&nbsp;</td>
+            <td>Violine</td>
+            <td>11. April 1992</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Fischer Ulrike</td>
+            <td>Violine</td>
+            <td>24. Juni 1984</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>&nbsp;</td>
+            <td>Violine</td>
+            <td>22. M&auml;rz 1986</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>&nbsp;</td>
+            <td>Violine</td>
+            <td>30. M&auml;rz 1986</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Fischer Ursula</td>
+            <td>Sopran</td>
+            <td>8. Dez. 1996</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Fischer Ursula&nbsp;</td>
+            <td>Sopran</td>
+            <td>14. Dez. 1996</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Fischer Walter</td>
+            <td>Violine</td>
+            <td>6. J&auml;n. 1970</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Flieder Johannes</td>
+            <td>Violine</td>
+            <td>2. Juli 1972</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Flieder Klara&nbsp;</td>
+            <td>Violine</td>
+            <td>11. April 1976</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/151">Gabathuler Christoph</a></td>
+            <td>Tenor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>8. Dez. 2005</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Giesinger Marlies</td>
+            <td>&nbsp;Regerl, Sennerin</td>
+            <td>13. Sept. 1956</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/165">Gloor Julia</a></td>
+            <td>Violine</td>
+            <td>19. M&auml;rz 2005</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Graf Bobby</td>
+            <td>&nbsp;3. Gemeinderat</td>
+            <td>16./18./ 21. April. 1979</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Gogibedashwili Irakli</td>
+            <td>Viola</td>
+            <td>22. M&auml;rz 1986</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Gogibedashwili Irakli</td>
+            <td>Viola</td>
+            <td>30. M&auml;rz 1986</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/173">Grasb&ouml;ck-Aichner&nbsp;&nbsp;Dajana</a></td>
+            <td>Fl&ouml;te&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>8. Dez. 2012</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/175">Gro&szlig;steiner Susanne</a></td>
+            <td>Sopran&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>15. M&auml;rz 2008</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/177">G&uuml;ltekin Ali Riza</a></td>
+            <td>Violine</td>
+            <td>8. Dez. 2009</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Gut Marlene</td>
+            <td>Erzieherin</td>
+            <td>28./29. Nov. 1981
+                <dl>
+                    <dt>5./12. Dez. 1981</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Gunter Penelope&nbsp;&nbsp;</td>
+            <td>Cello</td>
+            <td>8. Dez. 1984</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Haid Hans</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Haid Richard</td>
+            <td>Christian, Goldschmiedgeselle</td>
+            <td>1957</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Haid Richard</td>
+            <td>Junger Emigrant</td>
+            <td>28./29. Nov. 1981
+                <dl>
+                    <dt>5./12. Dez. 1981</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Haid Richard</td>
+            <td>&nbsp;Tenor</td>
+            <td>8. Dez. 1959</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Haid Richard</td>
+            <td>Tenor</td>
+            <td>13. Juni 1963</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Haid Richard</td>
+            <td>&nbsp;Adam</td>
+            <td>16./18./ 21. April. 1979</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Hartmann Armin</td>
+            <td>Meditationen</td>
+            <td>27. M&auml;rz 1999</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Hartmann Armin</td>
+            <td>Meditationen</td>
+            <td>7. April 2001</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>H&auml;usle German</td>
+            <td>Violine</td>
+            <td>7. Juni 1976</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>H&auml;usle German</td>
+            <td>Violine</td>
+            <td>15. Mai 1978</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Heidrich Werner</td>
+            <td>Viola</td>
+            <td>22. M&auml;rz 1997</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Heinzle Herbert</td>
+            <td>Bruder Siverius</td>
+            <td>1957</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Heinzle Herbert</td>
+            <td>Bass</td>
+            <td>14. M&auml;rz 1976</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Heinzle Herbert</td>
+            <td>&nbsp;Schneck - W&uuml;rmchen</td>
+            <td>16./18./ 21. April. 1979</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Heinzle Herbert</td>
+            <td>Einstudierung der Ch&ouml;re</td>
+            <td>28./29. Nov. 1981
+                <dl>
+                    <dt>5./12. Dez. 1981</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Heinzle Hildegard</td>
+            <td>Anhilfe, seine Frau</td>
+            <td>30. Aug.
+                <dl>
+                    <dt>1./6./8./13./14. Sept. 1953</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Heinzle Martha</td>
+            <td>Cello</td>
+            <td>7. Juni 1976</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Heller Annemarie</td>
+            <td>&nbsp;Sopran</td>
+            <td>8. Dez. 1961</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Heller Annemarie</td>
+            <td>Sopran</td>
+            <td>13. Juni 1963</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Heller Annemarie</td>
+            <td>Sopran</td>
+            <td>11. M&auml;rz 1967</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Heller Annemarie</td>
+            <td>&nbsp;Sopran</td>
+            <td>31. M&auml;rz 1968</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Heller Annemarie</td>
+            <td>Sopran</td>
+            <td>6. J&auml;n. 1969</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Heller Annemarie</td>
+            <td>Sopran</td>
+            <td>19. M&auml;rz 1972</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Heller Annemarie</td>
+            <td>Sopran</td>
+            <td>5. Nov. 1972</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Heller Annemarie</td>
+            <td>Sopran</td>
+            <td>14. M&auml;rz 1976</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Helyes Elisabeth</td>
+            <td>Klavier</td>
+            <td>21. Mai 1994</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Hering-Marshal Irene</td>
+            <td>Portschunkula, Haush&auml;lterin</td>
+            <td>1957</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Hering-Marshal Irene</td>
+            <td>Josefine, K&ouml;chin</td>
+            <td>16./18. J&auml;n. 1962
+                <dl>
+                    <dt>4. Febr. 1962</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Heyny Paul</td>
+            <td>Botschafter Mac Grave</td>
+            <td>30. Aug.
+                <dl>
+                    <dt>1./6./8./13./14. Sept. 1953</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Hidber Rita</td>
+            <td>Oboe</td>
+            <td>4. April 1983</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Hinteregger Ludwig</td>
+            <td>&nbsp;Stanislaus</td>
+            <td>16./18./ 21. April. 1979</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Hod&aacute;sz Andrea</td>
+            <td>Cello</td>
+            <td>22. M&auml;rz 1997</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Hod&aacute;sz Andrea</td>
+            <td>Cello</td>
+            <td>4. April 1998</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Hod&aacute;sz Andrea</td>
+            <td>Cello</td>
+            <td>16. Juli 1999</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Hod&aacute;sz Andrea</td>
+            <td>&nbsp;Cello</td>
+            <td>15. April 2000</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Hod&aacute;sz Istv&aacute;n</td>
+            <td>Violine</td>
+            <td>17. Sept. 1978</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Hod&aacute;sz&nbsp; Marika</td>
+            <td>Violine</td>
+            <td>8. Dez. 1992</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Hod&aacute;sz Marika</td>
+            <td>Violine</td>
+            <td>4. Dez. 1994</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Hod&aacute;sz Marika</td>
+            <td>Violine</td>
+            <td>&nbsp;8. Dez. 1994</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Hod&aacute;sz Marika</td>
+            <td>Violine</td>
+            <td>8. Dez. 1995</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Hod&aacute;sz Marika</td>
+            <td>Violine</td>
+            <td>16. Juli 1999</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Hod&aacute;sz Marika</td>
+            <td>Violine</td>
+            <td>15. April 2000</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Hod&aacute;sz Marika&nbsp;</td>
+            <td>Violine</td>
+            <td>19. M&auml;rz 2005</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Hod&aacute;sz Martha</td>
+            <td>Violine</td>
+            <td>4. Dez. 1994</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>&nbsp;Hod&aacute;sz Martha</td>
+            <td>Violine</td>
+            <td>&nbsp;8. Dez. 1994</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Hod&aacute;sz Martha&nbsp;</td>
+            <td>Violine</td>
+            <td>8. Dez. 1995</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Honeck Otto</td>
+            <td>Klavier</td>
+            <td>22. Okt. 1964</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Horvath Ildiko</td>
+            <td>Violine</td>
+            <td>17. April 1981</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Horvath Istv&aacute;n&nbsp;&nbsp;</td>
+            <td>Violine</td>
+            <td>22. M&auml;rz 1997</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Huber Michael&nbsp;(Michael Heltau)</td>
+            <td>Rolle des T&auml;nzers zum Kaiserwalzer</td>
+            <td>Operette, 14. , 18. , 21. und 22. Sept. 1952</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Jahoda G&uuml;nter</td>
+            <td>Fl&ouml;te</td>
+            <td>24. Mai 1989</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Jahoda G&uuml;nter &nbsp;&nbsp;&nbsp;</td>
+            <td>Fl&ouml;te&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>26. M&auml;rz 1994</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>J&auml;ger Sabine</td>
+            <td>Viola</td>
+            <td>8. Dez. 1984</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>J&auml;ger Susanne</td>
+            <td>Violine</td>
+            <td>8. Dez. 1983</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/179">Jerolitsch Karl</a></td>
+            <td>Tenor</td>
+            <td>3. April 2004</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/144">Joschika Veronika</a></td>
+            <td>&nbsp;Sopran</td>
+            <td>7. Juni 2002
+                <dl>
+                    <dt>8. Juni 2002</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Juffmann Karl</td>
+            <td>&nbsp;Gesamtleitung</td>
+            <td>&nbsp;1957</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Kabas Eva-Maria</td>
+            <td>Violine</td>
+            <td>&nbsp;8. Dez. 1985</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>&nbsp;</td>
+            <td>Violine</td>
+            <td>4. April 1998</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Kabas Martin</td>
+            <td>Kontrabass</td>
+            <td>8. Dez. 1985</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Kabas Martin</td>
+            <td>Kontrabass</td>
+            <td>8. Dez. 1998</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/180">Kaleschke Johannes</a></td>
+            <td>Tenor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>2. Juni 2013</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/182">Karakhanyan Alexandr</a></td>
+            <td>Cello</td>
+            <td>10. Juni 2018<br />
+                8. Dez. 2019</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>K&aacute;rp&aacute;ti Iv&aacute;n</td>
+            <td>Klavier</td>
+            <td>8. Juni 1981</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Kathan Fridolin</td>
+            <td>Klarinette</td>
+            <td>&nbsp;25. J&auml;n. 1981</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Kathan Horst</td>
+            <td>Bass</td>
+            <td>6. J&auml;n. 1969</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Kathan Horst</td>
+            <td>Bass</td>
+            <td>4. Nov. 1978</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/183">Kaya Emre Yunus</a></td>
+            <td>Klavier&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>19. Juni 2011</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Kessler David</td>
+            <td>Violine</td>
+            <td>16. Juni 2019</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Kleisel - Hessel Anni</td>
+            <td>Gesang</td>
+            <td>19. Nov. 1950</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>K&ouml;b Hubert</td>
+            <td>Ottokar, der Sohn</td>
+            <td>28./29. Nov. 1981
+                <dl>
+                    <dt>5./12. Dez. 1981</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>K&ouml;banyai Orsolya</td>
+            <td>Alt</td>
+            <td>23. M&auml;rz 1991</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Kocsis Albert</td>
+            <td>Violine</td>
+            <td>&nbsp;4. Nov. 1978</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Kocsis Albert</td>
+            <td>Violine</td>
+            <td>30. M&auml;rz 1980</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Kocsis Albert</td>
+            <td>Violine</td>
+            <td>8. Juni 1981</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Kocsis Albert</td>
+            <td>Violine</td>
+            <td>8. April. 1985</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Kocsis Albert</td>
+            <td>Violine</td>
+            <td>6. Juni 1987</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Kocsis Albert</td>
+            <td>Violine</td>
+            <td>26. M&auml;rz 1988</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Koelman Rudolf</td>
+            <td>Violine</td>
+            <td>7. Juni 1986</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Koholzer Christine</td>
+            <td>Klavier</td>
+            <td>4. Juni 1988</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Koholzer Peter</td>
+            <td>J&oacute;szi, Zigeuner</td>
+            <td>28./29. Nov. 1981
+                <dl>
+                    <dt>5./12. Dez. 1981</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/178">Kopf Angelika</a></td>
+            <td>Sopran</td>
+            <td>3. April 2004</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>K&ouml;rmendy Veronika</td>
+            <td>Violine</td>
+            <td>29. Nov. 1987</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>K&ouml;rmendy Veronika</td>
+            <td>Violine</td>
+            <td>13. Dez. 1987</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>K&ouml;rpe G&uuml;lcin&nbsp;&nbsp;</td>
+            <td>Violine&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>26. M&auml;rz 1994</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Kov&aacute;cs T&uuml;nde&nbsp;Marosn&eacute;</td>
+            <td>Fl&ouml;te</td>
+            <td>23. M&auml;rz 1991</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Kov&aacute;cs T&uuml;nde&nbsp;Marosn&eacute;</td>
+            <td>Fl&ouml;te</td>
+            <td>23. M&auml;rz 2002</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Kr&auml;utler Erwin</td>
+            <td>Bruder Ignatius</td>
+            <td>1957</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Kreitmaier Inge</td>
+            <td>Alt</td>
+            <td>4. Nov. 1978</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Kreitmaier Inge</td>
+            <td>&nbsp;Jette</td>
+            <td>16./18./ 21. 4. 1979</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Kremmel Aldo</td>
+            <td>Klavier</td>
+            <td>4. Nov. 1978</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Kriegler Adalbert</td>
+            <td>Techn. Leitung</td>
+            <td>1957</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Kriegler Adalbert</td>
+            <td>Viola</td>
+            <td>17. April. 1981</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/185">K&uuml;hne Stefan</a></td>
+            <td>Posaune</td>
+            <td>8. Dez. 2008</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Kupitz B&auml;rbel</td>
+            <td>Kurf&uuml;rstin</td>
+            <td>16. J&auml;n. 1962</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Kupitz B&auml;rbel</td>
+            <td>Sopran</td>
+            <td>4. Nov. 1978</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Kupitz B&auml;rbel</td>
+            <td>Kurf&uuml;rstin</td>
+            <td>16./18./21. April 1979</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Kupitz B&auml;rbel</td>
+            <td>Saffi, Zigeunerm&auml;dchen</td>
+            <td>28./29. Nov. 1981
+                <dl>
+                    <dt>5./12. Dez. 1981</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Kurzemann Rudolf</td>
+            <td>Rollen: B&uuml;rgermeister
+                <dl>
+                    <dt>Reisef&uuml;hrer</dt>
+                </dl>
+            </td>
+            <td>Operette, 14. , 18. , 21. und 22. Sept. 1952</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Kurzemann Rudolf</td>
+            <td>Leopold Maria, F&uuml;rst von Lippert-Weylersheim</td>
+            <td>30. Aug.
+                <dl>
+                    <dt>1./6./8./13./14. Sept. 1953</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Kurzemann Rudolf</td>
+            <td>&nbsp;B&uuml;rgermeister</td>
+            <td>16./18./ 21. April. 1979</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Lampert Helene</td>
+            <td>&nbsp;</td>
+            <td>11. Sept. 1955</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Lang Stefan&nbsp; &nbsp;</td>
+            <td>Violine</td>
+            <td>18. April 2003</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Lang Stefan</td>
+            <td>Violine</td>
+            <td>8. Dez. 2003</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>L&auml;ngle Eugen</td>
+            <td>Wenzl, Geselle bei der gold&acute;nen Meisterin</td>
+            <td>1957</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>L&auml;ngle Helmut</td>
+            <td>Fery v. Kerekes, genannt Fery b&aacute;csi</td>
+            <td>30. Aug.
+                <dl>
+                    <dt>1./6./8./13./14. Sept. 1953</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>&nbsp;</td>
+            <td>Tenor</td>
+            <td>8. Dez. 1961</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>&nbsp;</td>
+            <td>Tenor, Evangelist</td>
+            <td>11. M&auml;rz 1967</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>&nbsp;</td>
+            <td>Tenor</td>
+            <td>31. M&auml;rz 1968</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>&nbsp;</td>
+            <td>Tenor</td>
+            <td>6. J&auml;n. 1969</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>&nbsp;</td>
+            <td>Tenor</td>
+            <td>5. Nov. 1972</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>&nbsp;</td>
+            <td>Tenor, Evangelist</td>
+            <td>14. M&auml;rz 1976</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>&nbsp;</td>
+            <td>Tenor</td>
+            <td>4. Nov. 1978</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Lechmann Heinz</td>
+            <td>Violine</td>
+            <td>6. J&auml;n. 1970</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Leimegger Michaela</td>
+            <td>Cello</td>
+            <td>7. Dez. 1986</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Lerch&nbsp; Franz</td>
+            <td>Posaune</td>
+            <td>8. Dez. 1990</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Lerch Franz</td>
+            <td>Posaune</td>
+            <td>23. April 1984</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Lorenz Brigitte&nbsp;</td>
+            <td>Violine</td>
+            <td>19. M&auml;rz 1972</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Lorenz Brigitte&nbsp;</td>
+            <td>Violine</td>
+            <td>17. Mai 1975</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Lorenz Vroni</td>
+            <td>&nbsp;Kathi, Brieftr&auml;gerin
+                <dl>
+                    <dt>Zenzi, Ziegenhirtin</dt>
+                </dl>
+            </td>
+            <td>Operette, 14. , 18. , 21. und 22. Sept. 1952</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>L&ouml;wenherz Richard</td>
+            <td>Graf Jaromir auf Greifenstein</td>
+            <td>1957</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Madlener Monika</td>
+            <td>Violine</td>
+            <td>17. Sept. 1978</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Maier Marianne</td>
+            <td>Adalheid, die Tochter</td>
+            <td>13. Sept. 1956</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Maros Gabor</td>
+            <td>Vibraphon</td>
+            <td>11. April 1992</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Maros Gabor</td>
+            <td>Vibraphon</td>
+            <td>16. Juli 1999</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/137">Marosn&eacute; Kov&aacute;cs T&uuml;nde&nbsp;</a></td>
+            <td>Fl&ouml;te</td>
+            <td>8. Dez. 1992<br />
+                16. Juli 1999<br />
+                23. M&auml;rz 2002</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/169">Martinek Anita</a></td>
+            <td>Violine&nbsp;&nbsp;</td>
+            <td>31. M&auml;rz 2007</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/159">Mathis Nicola</a></td>
+            <td>Violine</td>
+            <td>19. M&auml;rz 2005</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Mauerhofer Josef</td>
+            <td>&nbsp;Klarinette</td>
+            <td>10. Okt. 1954</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Mayer Alfred&nbsp;</td>
+            <td>Cello</td>
+            <td>14. Sept. 1947</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Mayer Alfred&nbsp;</td>
+            <td>Mus. Leitung</td>
+            <td>1957</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>&nbsp;</td>
+            <td>Mus. Leitung</td>
+            <td>28./29. Nov. 1981
+                <dl>
+                    <dt>5./12. Dez. 1981</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Mayer&nbsp; Egon</td>
+            <td>Violine</td>
+            <td>14. Sept. 1947</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Mayer Elmar</td>
+            <td>&nbsp;Gesamtleitung</td>
+            <td>11. Sept. 1949</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Mayer Else</td>
+            <td>&nbsp;Josefine, K&ouml;chin</td>
+            <td>11. Sept. 1949</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Mayer Else</td>
+            <td>&nbsp;Kl&auml;rchen, die Tochter
+                <dl>
+                    <dt>Hochzeitspaar</dt>
+                </dl>
+            </td>
+            <td>Operette, 14. , 18. , 21. und 22. Sept. 1952</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Mayer Else</td>
+            <td>Komtesse Stasi, Nichte des F&uuml;rsten&nbsp;</td>
+            <td>8./13./14. Sept. 1953</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Mayer Else</td>
+            <td>&nbsp;</td>
+            <td>11. Sept. 1955</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Mayer Friederike</td>
+            <td>Violine</td>
+            <td>19. Juni 1977</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Mayer Hermine</td>
+            <td>Oboe</td>
+            <td>8. Dez. 1984</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Mayer Hermine</td>
+            <td>Oboe</td>
+            <td>7. Dez. 1986</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/147">Mayer Marc A.&nbsp;</a></td>
+            <td>&nbsp;</td>
+            <td>7. Juni 2002
+                <dl>
+                    <dt>8. Juni 2002</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Mayer Maria Luise</td>
+            <td>Fl&ouml;te</td>
+            <td>7. Juni 1976</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Mayer Marianne</td>
+            <td>Contezza Giulietta</td>
+            <td>1957</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Mayer Michael</td>
+            <td>Trompete</td>
+            <td>&nbsp;25. J&auml;n. 1981</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Mayer Rafaela</td>
+            <td>Violine</td>
+            <td>7. Juni 1976</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Mayer Rafaela</td>
+            <td>Violine</td>
+            <td>17. April. 1981</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Mayer Rafaela</td>
+            <td>Violine</td>
+            <td>28. Juni 1981</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Mayer Wolfgang</td>
+            <td>Cello</td>
+            <td>11. Juli 1971</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>&nbsp;</td>
+            <td>Cello</td>
+            <td>19. Sept. 1976</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>&nbsp;</td>
+            <td>Cello</td>
+            <td>17. Sep. 1978</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>&nbsp;</td>
+            <td>Cello</td>
+            <td>17. April. 1981</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>&nbsp;</td>
+            <td>Cello</td>
+            <td>8. Juni 1981</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Mellitzer Elisabeth&nbsp;</td>
+            <td>Fl&ouml;te</td>
+            <td>8. Dez. 1998</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Metzker Karl</td>
+            <td>Violine</td>
+            <td>13. Oktober 1990</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Meusburger Josef</td>
+            <td>Bruder Peregrinus</td>
+            <td>1957</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Mittelberger Helmut</td>
+            <td>&nbsp;Angestellter</td>
+            <td>&nbsp;1957</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Mohr Ernst</td>
+            <td>Max Widmann, Maler</td>
+            <td>13. Sept. 1956</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Mohr Ernst</td>
+            <td>&nbsp;Friedl, Lehrbub</td>
+            <td>1957</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Mohr Ernst</td>
+            <td>Loidl, Offizial
+                <dl>
+                    <dt>Des Arbeitsamtes</dt>
+                </dl>
+            </td>
+            <td>16./18. J&auml;n. 1962
+                <dl>
+                    <dt>4. Febr. 1962</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>M&uuml;ller Hubert</td>
+            <td>&nbsp;S&uuml;ffle</td>
+            <td>16./18./ 21. April. 1979</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>M&uuml;ller Oskar&nbsp;</td>
+            <td>Violine</td>
+            <td>19. Nov. 1950</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>M&uuml;ller Oskar</td>
+            <td>&nbsp;Violine</td>
+            <td>26. Dez. 1951</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/148">Muoth Alvin</a></td>
+            <td>&nbsp;Bariton</td>
+            <td>7. Juni 2002
+                <dl>
+                    <dt>8. Juni 2002</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Murakami Shizue</td>
+            <td>Sopran</td>
+            <td>10.&nbsp; Dez. 1988</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Murakami Shizue</td>
+            <td>Sopran</td>
+            <td>15./ 16. April 1989</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>N&auml;gele&nbsp;Barbara</td>
+            <td>Blockfl&ouml;te</td>
+            <td>8. Dez.&nbsp; 2004</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>N&auml;gele Brigitte</td>
+            <td>Violine</td>
+            <td>19. Sept. 1976</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Napetschnig Elke&nbsp;</td>
+            <td>Violine&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>26. M&auml;rz 1994</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Natter Claudia</td>
+            <td>Fl&ouml;te</td>
+            <td>4. Dez. 1994</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Natter Claudia</td>
+            <td>Fl&ouml;te</td>
+            <td>&nbsp;8. Dez. 1994</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/188">Natter J&uuml;rgen</a></td>
+            <td>Orgel</td>
+            <td>8. Dez. 2006</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Natter J&uuml;rgen</td>
+            <td>Cembalo</td>
+            <td>8. Dez. 2009</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Natter J&uuml;rgen</td>
+            <td>Orgel</td>
+            <td>7. Juni 2015</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Natter Marlene&nbsp; &nbsp;</td>
+            <td>Violine</td>
+            <td>30. M&auml;rz 1986</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Natter Martina</td>
+            <td>Sopranblockfl&ouml;te</td>
+            <td>30. M&auml;rz 1986</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Navai Firouzeh&nbsp;</td>
+            <td>Fl&ouml;te</td>
+            <td>22. M&auml;rz 1986</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Nemeth Eva</td>
+            <td>Cello</td>
+            <td>17. Okt. 1992</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Nemeth Eva</td>
+            <td>Cello</td>
+            <td>4. Dez. 1994</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Nemeth Eva</td>
+            <td>Cello</td>
+            <td>8. Dez. 1994</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/189">Nerdinger Klaus</a></td>
+            <td>Violine&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>29. April 2012</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Nessler&nbsp;&nbsp; Susanne</td>
+            <td>Alt</td>
+            <td>11. April 1987</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Neunteufel Dominik</td>
+            <td>Kontrabass</td>
+            <td>8. Dez. 2017</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/160">Oberhuber Christina</a></td>
+            <td>Violine</td>
+            <td>19. M&auml;rz 2005</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Oberscheider Bernadette</td>
+            <td>Sopran</td>
+            <td>8. April 1995</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Obholzer Josef</td>
+            <td>Ki&szlig;, Notat</td>
+            <td>30. Aug. 1953</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Oross Vera</td>
+            <td>Fl&ouml;te</td>
+            <td>8. Dez. 1992</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/157">Ortner Claudia</a></td>
+            <td>Violine</td>
+            <td>8. Dez. 2001</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/139">Ortner Bettina</a></td>
+            <td>Cello</td>
+            <td>12. April 2003</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/191">Pfanner Evamaria</a></td>
+            <td>Cello</td>
+            <td>8. Dez. 2013</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Pfefferkorn Martin</td>
+            <td>Bass</td>
+            <td>10.&nbsp; Dez. 1988</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Pfister Barbara&nbsp;</td>
+            <td>Blockfl&ouml;te&nbsp;&nbsp;</td>
+            <td>8. Dez. 2000</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Pfister Barbara</td>
+            <td>Blockfl&ouml;te</td>
+            <td>8. Dez.&nbsp; 2004</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Pfister Paul</td>
+            <td>&nbsp;Hotelier zur Post</td>
+            <td>Operette, 14. , 18. , 21. und 22. Sept. 1952</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/155">Pilz Karoline</a></td>
+            <td>Viola&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>8. April&nbsp; 2006</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/140">Plangg Nina Maria</a></td>
+            <td>Sopran</td>
+            <td>12. April 2003</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>&nbsp;</td>
+            <td>Sopran</td>
+            <td>8. Dez. 2007</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Presslaber Sigrid</td>
+            <td>Blockfl&ouml;te</td>
+            <td>10.&nbsp; Dez. 1988</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/167">Pritz Julia</a></td>
+            <td>Harfe&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>31. M&auml;rz 2007</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/186">Rebholz Raphael</a></td>
+            <td>Trompete</td>
+            <td>8. Dez. 2008</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/172">Reinthaler-Eberle Sonja</a></td>
+            <td>Oboe&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>25. April 2010</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/151">Rei&szlig;mann Leni</a></td>
+            <td>Sopran&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>8. Dez. 2005</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Reitschuler Maria</td>
+            <td>Fl&ouml;te</td>
+            <td>12. Dez. 1999</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Reitschuler Maria</td>
+            <td>Fl&ouml;te</td>
+            <td>&nbsp;8. Dez. 1999</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Rem&eacute;nyi Gy&ouml;ngyi</td>
+            <td>Violine</td>
+            <td>8. Dez. 1999</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Rem&eacute;nyi Gy&ouml;ngyi</td>
+            <td>Violine</td>
+            <td>12. Dez. 1999</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Renwart Franz</td>
+            <td>Fl&ouml;te</td>
+            <td>10. Dez. 1967</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Rinderer Waltraud&nbsp;</td>
+            <td>Viola</td>
+            <td>19. Sept. 1976</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Rinderer Waltraud&nbsp;</td>
+            <td>Viola</td>
+            <td>15. Mai 1978</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/158">R&ouml;czey Gy&ouml;ngyi</a></td>
+            <td>Viola</td>
+            <td>16. Juli 1999<br />
+                15.&nbsp;April 2000<br />
+                8. Dez. 2001<br />
+                18. April 2003<br />
+                8. Dez. 2003</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/164">R&ouml;czey Rozalia</a></td>
+            <td>Violine</td>
+            <td>19. M&auml;rz 2005</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Rohrer Anton</td>
+            <td>Ba&szlig;</td>
+            <td>5. Nov. 1972</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Ronkard Karl</td>
+            <td>Trompete</td>
+            <td>8. Dez. 1959</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Rummer Brunhilde</td>
+            <td>Margarete, eine reiche Goldschmiedswitwe</td>
+            <td>&nbsp;1957</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Salzgeber Rudolf</td>
+            <td>Bariton</td>
+            <td>14. Sept. 1947</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Salzgeber Rudolf</td>
+            <td>Gesang</td>
+            <td>19. Nov. 1950</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Salzgeber Rudolf</td>
+            <td>&nbsp;Leopold, Zahlkellner</td>
+            <td>Operette, 14. , 18. , 21. und 22. Sept. 1952</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/193">Salzmann Emil</a></td>
+            <td>Fagott</td>
+            <td>8. Dez. 2010</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Sandholzer Eva&nbsp;</td>
+            <td>Violine</td>
+            <td>15. Mai 1978</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Sarlos Zsuzsa&nbsp;&nbsp;&nbsp; &nbsp;</td>
+            <td>Gitarre&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>26. M&auml;rz 1994</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Scheier Hermine&nbsp;</td>
+            <td>Oboe</td>
+            <td>15. Mai 1978</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/194">Scheier Julia</a></td>
+            <td>Harfe</td>
+            <td>8. Dez. 2016</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/132">Schele Harald</a></td>
+            <td>Tuba</td>
+            <td>&nbsp;8. Dez. 2002</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Scherrer Judit</td>
+            <td>Sopran&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>27. M&auml;rz 1999</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/153">Scherrer-Kleber Judit&nbsp;&nbsp;&nbsp;</a></td>
+            <td>Sopran&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;7. April 2001</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Scherrer Letizia</td>
+            <td>Sopran</td>
+            <td>23. M&auml;rz 1991</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Scherrer Letizia</td>
+            <td>Sopran</td>
+            <td>27. M&auml;rz 1999</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Schneider Anni</td>
+            <td>&nbsp;</td>
+            <td>19. Juni 1958</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Sch&ouml;ch Erich</td>
+            <td>&nbsp;Benno Bokorny</td>
+            <td>11. Sept. 1949</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Sch&ouml;ch Erich</td>
+            <td>Sigismund S&uuml;lzheimer</td>
+            <td>Operette, 14. , 18. , 21. und 22. Sept. 1952</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Sch&ouml;ch Erich</td>
+            <td>&nbsp;</td>
+            <td>11. Sept. 1955</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Schoder Helene</td>
+            <td>Alt</td>
+            <td>10.&nbsp; Dez. 1988</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/181">Schuchter Andreas</a></td>
+            <td>Horn</td>
+            <td>8. Dez. 2010</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>&nbsp;</td>
+            <td>Horn&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>2. Juni 2013</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Schwab Irene&nbsp;</td>
+            <td>Cello</td>
+            <td>16. Juli 1999</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Schwab Irene</td>
+            <td>Cello</td>
+            <td>15. April 2000</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Schwab Kurt</td>
+            <td>Cello</td>
+            <td>6. J&auml;n. 1970</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Schwab Kurt</td>
+            <td>Bass</td>
+            <td>28. Juni 1981</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Schwab Kurt</td>
+            <td>Bass</td>
+            <td>24. Juni 1984</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Schwab Kurt</td>
+            <td>Bass</td>
+            <td>8. Dez.&nbsp; 2004</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Schwarz Margit,&nbsp;Baden-Wien</td>
+            <td>Klavier</td>
+            <td>16. Nov. 1965</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Schw&auml;rzler Gerhard</td>
+            <td>Trompete</td>
+            <td>17. Sept 1978</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/176">Schwendinger Johannes</a></td>
+            <td>Bass</td>
+            <td>15. M&auml;rz 2008</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>&nbsp;</td>
+            <td>Bass</td>
+            <td>8. Dez. 2011</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>&nbsp;</td>
+            <td>Bass</td>
+            <td>8. Dez. 2017</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Schwendinger Michael</td>
+            <td>Bass&nbsp;&nbsp;&nbsp;</td>
+            <td>8. Dez. 2000</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Sieber Anne-Regina</td>
+            <td>Sopran</td>
+            <td>4. Nov. 1978</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Sieber Anne-Regina</td>
+            <td>&nbsp;Christel</td>
+            <td>16./18./ 21. April. 1979</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Simek Josef</td>
+            <td>K&ouml;niglicher Kommiss&auml;r</td>
+            <td>28./29. Nov. 1981
+                <dl>
+                    <dt>5./12. Dez. 1981</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/196">Simma Lukas</a></td>
+            <td>Saxophon</td>
+            <td>5. Juni 2016</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Sonderegger Reinold</td>
+            <td>Kellner Franz
+                <dl>
+                    <dt>Hotelier zur Alpenrose</dt>
+                </dl>
+            </td>
+            <td>Operette, 14. , 18. , 21. und 22. Sept. 1952</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Spalt Judith</td>
+            <td>Cembalo</td>
+            <td>29. Nov. 1987</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Spalt Lieselotte</td>
+            <td>Violine</td>
+            <td>13. Dez. 1987</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Spalt Lieselotte</td>
+            <td>Violine</td>
+            <td>8. Dez. 1982</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Spalt Lieselotte</td>
+            <td>Violine</td>
+            <td>2. Juni 1983</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Spalt Veronika</td>
+            <td>Violine</td>
+            <td>8. Dez. 1982</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Spalt Veronika</td>
+            <td>Violine</td>
+            <td>2. Juni 1983</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Spalt Veronika</td>
+            <td>Violine</td>
+            <td>13. Dez. 1987</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/195">Speyers Guy</a></td>
+            <td>Viola</td>
+            <td>8. Dez. 2014</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Stark Josef</td>
+            <td>Inszenierung</td>
+            <td>&nbsp;1957</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Stark Josef</td>
+            <td>Inszenierung</td>
+            <td>16./18. J&auml;n. 1962
+                <dl>
+                    <dt>4. Febr. 1962</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Steger Wolfgang</td>
+            <td>Klarinette</td>
+            <td>24. Mai 1989</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Stiller Michael</td>
+            <td>Weps</td>
+            <td>16./18./ 21. April. 1979</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Stiller Michael</td>
+            <td>Graf Peter Homonay</td>
+            <td>28./29. Nov. 1981
+                <dl>
+                    <dt>5./12. Dez. 1981</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Strassmair Johannes</td>
+            <td>&nbsp;&nbsp;Quendel</td>
+            <td>16./18./ 21. April. 1979</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Strassmair Johannes</td>
+            <td>Pali, Zigeuner</td>
+            <td>28./29. Nov. 1981
+                <dl>
+                    <dt>5./12. Dez. 1981</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>S&uuml;megi&nbsp;Eszter</td>
+            <td>&nbsp;Sopran</td>
+            <td>3. Nov. 1995
+                <dl>
+                    <dt>5. Nov. 1995I</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Szalay Stefan</td>
+            <td>Gitarre</td>
+            <td>28. Juni 1981</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/170">Tarcsay Monica&nbsp;</a></td>
+            <td>Violine&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>25. April 2010</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Themessl Gerhard</td>
+            <td>Bratsche</td>
+            <td>19. M&auml;rz 1972</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/146">Tiefenthaler Gertrud</a></td>
+            <td>Alt</td>
+            <td>7. Juni 2002
+                <dl>
+                    <dt>8. Juni 2002</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Toth Tamas&nbsp;&nbsp;</td>
+            <td>&nbsp;Violine</td>
+            <td>21. Mai 1994</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Tran Wanda</td>
+            <td>Klavier</td>
+            <td>4. Nov. 1978</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Treml Angelika</td>
+            <td>Violine</td>
+            <td>8. Dez: 1996</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Treml Angelika</td>
+            <td>Violine</td>
+            <td>14. Dez. 1996</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/135">Tschann Joachim</a></td>
+            <td>Violine&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>4. April 2009</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Valaster Adolf</td>
+            <td>&nbsp;2. Gemeinderat</td>
+            <td>16./18./ 21. April. 1979</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/190">Varapayeva Alesia</a></td>
+            <td>Oboe&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>29. April 2012</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Varch-Hidber Rita</td>
+            <td>Oboe</td>
+            <td>8. Dez. 1995</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Vaya Liesl</td>
+            <td>Klavier</td>
+            <td>10. Okt. 1954</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/150">Viski R&oacute;bert</a></td>
+            <td>Violine</td>
+            <td>16. Mai 2004</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Vonblon Otto</td>
+            <td>Trompete</td>
+            <td>&nbsp;8. Dez. 1976</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/192">Wachter Michael</a></td>
+            <td>Trompete</td>
+            <td>8. Dez. 2002<br />
+                8. Dez. 2007</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Wagner Markus</td>
+            <td>Klavier</td>
+            <td>23. Nov. 1991</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Wagner Markus</td>
+            <td>Klavier</td>
+            <td>2. Juni 2001</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Waldner Herbert&nbsp;</td>
+            <td>Tuba</td>
+            <td>8. Dez: 1990</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Watzenegger Andrea</td>
+            <td>Viola</td>
+            <td>7. Juni 1976</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Watzenegger&nbsp; Andrea</td>
+            <td>Bratsche</td>
+            <td>17. Sept: 1978</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Weber Robert</td>
+            <td>Violine</td>
+            <td>8. April 1995</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Wehinger Hermine</td>
+            <td>Oboe</td>
+            <td>&nbsp;8. Dez. 1999</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Wehinger Hermine</td>
+            <td>Oboe</td>
+            <td>12. Dez. 1999</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Wehinger Hermine&nbsp;</td>
+            <td>Oboe</td>
+            <td>8. Dez.&nbsp; 2004</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Welte Traute</td>
+            <td>Fl&ouml;te</td>
+            <td>8. Dez. 1984</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Wieser Martina</td>
+            <td>Cello</td>
+            <td>8. Dez. 1992</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/161">Wiesmann Julia</a></td>
+            <td>Violine</td>
+            <td>19. M&auml;rz 2005</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Wilhelm Herta</td>
+            <td>Boten-Urschel</td>
+            <td>13. Sept. 1956</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Wund Otto</td>
+            <td>Edwin Ronald, beider Sohn</td>
+            <td>30. Aug.
+                <dl>
+                    <dt>1./6./8./13./14. Sept. 1953</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Wund Otto</td>
+            <td>&nbsp;</td>
+            <td>11. Sept. 1955</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Wund Otto</td>
+            <td>Dr. Hans Hessing</td>
+            <td>16./18. J&auml;n. 1962
+                <dl>
+                    <dt>4. Febr. 1962</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Wund Otto</td>
+            <td>Schweinez&uuml;chter</td>
+            <td>28./29. Nov. 1981
+                <dl>
+                    <dt>5./12. Dez. 1981</dt>
+                </dl>
+            </td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Wurm Brigitte&nbsp;</td>
+            <td>Klarinette</td>
+            <td>17. Sept. 1978</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/174">Zalejski Pawel</a></td>
+            <td>Violine</td>
+            <td>7. Mai 2017<br />
+                9. Juni 2014<br />
+                8. Dezember 2012</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Zessar Helga</td>
+            <td>Alt</td>
+            <td>14. M&auml;rz 1976</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Ziegler Ursula</td>
+            <td>Adelaide</td>
+            <td>16./18./ 21. April. 1979</td>
+        </tr>
+        <tr class="rowSolists">
+            <td><a href="/seiten/166">Zimmermann Patricia</a></td>
+            <td>Violine</td>
+            <td>19. M&auml;rz 2005</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Zlateva Jvajla</td>
+            <td>Fl&ouml;te</td>
+            <td>8. Dez. 1989</td>
+        </tr>
+        <tr class="rowSolists">
+            <td>Zudrell Werner</td>
+            <td>Violoncello</td>
+            <td>7. Dez. 1975<br />
+                15. Mai 1978<br />
+                12. April 1982<br />
+                8. Dez. 1984</td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>
