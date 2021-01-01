@@ -9,25 +9,6 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
-/* variables */
-	:root {
-		/* color button backbround  #3498db */
-		--color1: #755031;
-		/* color button backbround  active #258cd1 */
-		--color2: #885c39;
-		/* color button backbround  hoover #4aa3df */
-		--color3: #a87246;
-		/* color wrapper #3498db */
-		--color4: #755031;
-		/* color wrapper text #67b2e4 */
-		--color5: #f1deae;
-		/* color header and menu #3498db */
-		--color6: #755031;
-		/* color wrapper backgroaund #aed6f1 */
-		--color7: #f1deae;
-
-	}
-
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -1691,6 +1672,7 @@
 		font-size: 3em;
 		margin-bottom: .25em;
 		font-family: 'hochzeits-font';
+		font-style: italic;
 	}
 
 		@media screen and (max-width: 736px) {
@@ -1703,7 +1685,6 @@
 
 	h2 {
 		font-size: 2.5em;
-		font-family: 'hochzeits-font';
 	}
 
 		@media screen and (max-width: 736px) {
@@ -1984,7 +1965,7 @@
 	input[type="button"],
 	button,
 	.button {
-		background-color: var(--color1);
+		background-color: #3498db;
 		color: #fff !important;
 	}
 
@@ -1993,7 +1974,7 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: var(--color3);
+			background-color: #4aa3df;
 		}
 
 		input[type="submit"]:active,
@@ -2001,7 +1982,7 @@
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: var(--color2);
+			background-color: #258cd1;
 		}
 
 		input[type="submit"].alt,
@@ -2963,7 +2944,7 @@
 			.wrapper.style1 input[type="button"],
 			.wrapper.style1 button,
 			.wrapper.style1 .button {
-				background-color: var(--color1);
+				background-color: #3498db;
 				color: #fff !important;
 			}
 
@@ -2972,7 +2953,7 @@
 				.wrapper.style1 input[type="button"]:hover,
 				.wrapper.style1 button:hover,
 				.wrapper.style1 .button:hover {
-					background-color: var(--color3);
+					background-color: #4aa3df;
 				}
 
 				.wrapper.style1 input[type="submit"]:active,
@@ -2980,7 +2961,7 @@
 				.wrapper.style1 input[type="button"]:active,
 				.wrapper.style1 button:active,
 				.wrapper.style1 .button:active {
-					background-color: var(--color2);
+					background-color: #258cd1;
 				}
 
 				.wrapper.style1 input[type="submit"].alt,
@@ -3129,8 +3110,8 @@
 			}
 
 		.wrapper.style2 {
-			background-color: var(--color4);
-			color: var(--color7);
+			background-color: #3498db;
+			color: #aed6f1;
 		}
 
 			.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea {
@@ -3176,7 +3157,7 @@
 			.wrapper.style2 button,
 			.wrapper.style2 .button {
 				background-color: #fff;
-				color: var(--color4) !important;
+				color: #3498db !important;
 			}
 
 				.wrapper.style2 input[type="submit"].alt,
@@ -3210,7 +3191,7 @@
 					.wrapper.style2 input[type="button"].alt.icon:before,
 					.wrapper.style2 button.alt.icon:before,
 					.wrapper.style2 .button.alt.icon:before {
-						color: var(--color5);
+						color: #67b2e4;
 					}
 
 				.wrapper.style2 input[type="submit"].special,
@@ -3266,7 +3247,7 @@
 
 			.wrapper.style2 input[type="checkbox"] + label,
 			.wrapper.style2 input[type="radio"] + label {
-				color: var(--color7);
+				color: #aed6f1;
 			}
 
 				.wrapper.style2 input[type="checkbox"] + label:before,
@@ -3289,23 +3270,23 @@
 			}
 
 			.wrapper.style2 ::-webkit-input-placeholder {
-				color: var(--color5)!important;
+				color: #67b2e4 !important;
 			}
 
 			.wrapper.style2 :-moz-placeholder {
-				color: var(--color5)!important;
+				color: #67b2e4 !important;
 			}
 
 			.wrapper.style2 ::-moz-placeholder {
-				color: var(--color5)!important;
+				color: #67b2e4 !important;
 			}
 
 			.wrapper.style2 :-ms-input-placeholder {
-				color: var(--color5)!important;
+				color: #67b2e4 !important;
 			}
 
 			.wrapper.style2 .formerize-placeholder {
-				color: var(--color5)!important;
+				color: #67b2e4 !important;
 			}
 
 			.wrapper.style2 ul.alt li {
@@ -3313,7 +3294,7 @@
 			}
 
 			.wrapper.style2 header p {
-				color: var(--color5);
+				color: #67b2e4;
 			}
 
 			.wrapper.style2 table tbody tr {
@@ -3341,7 +3322,7 @@
 			}
 
 			.wrapper.style2 .image {
-				box-shadow: 0px 0px 0px 7px var(--color4), 0px 0px 0px 8px rgba(255, 255, 255, 0.25);
+				box-shadow: 0px 0px 0px 7px #3498db, 0px 0px 0px 8px rgba(255, 255, 255, 0.25);
 			}
 
 		@media screen and (max-width: 1280px) {
@@ -3424,7 +3405,7 @@
 
 	#header {
 		background: rgba(0, 0, 0, 0.75);
-		color: var(--color7);
+		color: #aed6f1;
 		cursor: default;
 		height: 3.25em;
 		left: 0;
@@ -3449,11 +3430,11 @@
 
 			#header > .logo a {
 				font-size: 1.25em;
-				color: var(--color6);
+				color: #3498db;
 			}
 
 				#header > .logo a:hover {
-					color: var(--color6);
+					color: #3498db;
 				}
 
 			#header > .logo span {
@@ -3475,7 +3456,7 @@
 		}
 
 			#header > a:hover {
-				color: var(--color6);
+				color: #3498db;
 			}
 
 			#header > a[href="#menu"] {
@@ -3635,7 +3616,7 @@
 					}
 
 					#menu > ul.links > li:hover {
-						color: var(--color6);
+						color: #3498db;
 					}
 
 					#menu > ul.links > li:first-child > a:not(.button) {
@@ -3679,7 +3660,7 @@
 			}
 
 			#menu .close:hover {
-				color: var(--color6);
+				color: #3498db;
 			}
 
 			@media screen and (max-width: 736px) {
